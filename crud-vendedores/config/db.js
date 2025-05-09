@@ -1,11 +1,11 @@
 const mysql = require("mysql2/promise");
 
 const pool = mysql.createPool({
-  host: "hopper.proxy.rlwy.net",
-  user: "root",
-  password: "tMKJOcebGGDdFQGJsNoQWozJmVsgrPgb",
-  database: "railway",
-  port: 37483,
+  host: "MYSQL1002.site4now.net",
+  user: "ab8bae_lab7",
+  password: "practica7!",
+  database: "db_ab8bae_lab7",
+  port: 3306,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
